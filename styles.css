@@ -20,6 +20,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 header .fondo {
   background: rgba(0, 0, 0, 0.55);
@@ -112,4 +113,15 @@ footer {
   text-align: center;
   padding: 25px;
   margin-top: 40px;
+}
+
+/* añadimos @media Query */
+
+@media (max-width: 768px) {
+  .articulo p {
+    column-count: 1;
+  }
+  header h1 {
+    font-size: 35px;
+  }
 }
